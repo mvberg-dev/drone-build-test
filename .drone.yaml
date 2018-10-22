@@ -1,0 +1,6 @@
+pipline:
+  build:
+    image: node
+    commands:
+      - npm install
+      - npm test
